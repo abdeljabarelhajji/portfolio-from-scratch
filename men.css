@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------------------------------ */
+/* -------------nav bar nav bar------------------ */
+/* ----------------------------------------------*/
+
+nav{
+     background-image:linear-gradient(to right bottom, rgba(5, 5, 5, 0.849), rgba(8, 8, 8, 0.719)), url("img/background_01.jpg");
+    background-size: cover;
+    z-index: 7;
+    width: 100%;
+    position: fixed;
+    padding: 1%;
+}
+nav a{
+   float:right;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+    color: #0287F8;
+}
+nav a:hover{
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+    color: black;
+    background-color: #0287F8;
+}
+
+/* ------------------------------------------------------------------ */
+/*--------------------------avatar & name -------------------------- */
+/* ---------------------------------------------------------------- */
+
+#avatar{
+    width: 40%;
+    height: 90%;
+    background-color: #fff;
+    padding: 10px;
+}
+#mynam{
+    font-size: 600%;
+    padding: 10%;
+    color:#FFFFFF;
+    font-family: Verdana;
+}
+.namy{
+    color: #FBF5E9;
+}
+
+/* ----------------------------------------------------------------- */
+/*------------------------paragraphe & card------------------------ */
+/* --------------------------------------------------------------- */
+h3 span{
+    color: #0287F8;
+}
+.tout{
+    background-image:linear-gradient(to right bottom, rgba(5, 5, 5, 0.623), rgba(8, 8, 8, 0.356)), url("img/background_01.jpg");
+    width:auto;
+    background-size: cover;
+    padding: 4%;
+
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4%;
+}
+.informat{
+    padding: 6%;
+}
+.informat h3{
+    width: 80%;
+    padding: 5%;
+    margin-left: 12%;
+    font-family: Serif;
+
+}
+#dcv {
+    background-color: #FBF5E9;
+    color: #0287F8;;
+    padding:20px;
+    padding-left: 32px;
+    padding-right: 32px; 
+    text-decoration: none;
+}
+.informat h1{
+    margin: 8%;
+    
+}
+.wokrs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+.card{
+    z-index: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    border-style: none!important;
+  
+}
+.card:hover{
+    z-index: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #0287F8;
+
+}
+.card img{
+    padding: 4%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+.card img:hover{
+    padding: 0%;
+    width: 150px;
+    height: 150px;
+    filter: grayscale(0%);
+}
+.card hr{
+    padding: 1%;
+    background-color: #0287F8;;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.card a:hover{
+    text-decoration: none;
+    color: black;
+   padding: 10px;
+    background: #0287F8;
+}
+.paddcard{
+    padding: 2%;
+    width: 30%;
+    padding-bottom: 1%;
+}
+/* ------------------------------------------------------------- */
+/*----------- for skills  for skills for skills---------------- */
+/* ----------------------------------------------------------- */
+.Skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Skills img{
+    width: 80%;
+
+
+}
+.progre{
+    width: 50%;
+}
+/*cop*/
+#skillss span {
+    top: -30px;
+    left: 2%;
+    position: relative;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #fff;
+}
+
+progress {
+    background-color: #f3f3f3;
+    border: 0;
+    height: 2.5em;
+    width: 100%;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #e0eaf0;
+}
+
+progress::-webkit-progress-value {
+    background-color: #0287F8;;
+}
+
+progress::-moz-progress-bar {
+    background-color: #0287F8;;
+}
+/* --------------------------------------------------------- */
+/*------------------------ certificate--------------------- */
+/* --------------------------------------------------------*/
+.cir{
+    background-image:linear-gradient(to right bottom, rgba(5, 5, 5, 0.849), rgba(8, 8, 8, 0.719)), url("img/background_01.jpg");
+    background-size: cover;
+}
+.certificate img {
+    width: 60%;
+
+}
+.titre{
+    text-align: center;
+    color: #0287F8;
+}
+/* --------------------------------------------------------- */
+/*------------------------ jai----------------------------- */
+/* --------------------------------------------------------*/
+.jai{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10%;
+}
+.jai h3{
+width: 50%;
+font-family: Serif;
+}
+.jai img{
+    width: 40%;
+    height: 40%;
+}
+/* --------------------------------------------------------- */
+/*------------------------ contact / fotter---------------- */
+/* --------------------------------------------------------*/
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+.contact h4{
+    color: #0287F8;;
+    padding-bottom: 10px;
+ 
+}
+.infocontact{
+    margin-left: 10%;
+    padding: 5%;
+}
+.contact p{
+ color: #FFFFFF;
+}
+.contach1{
+     background-image:linear-gradient(to right bottom, rgba(5, 5, 5, 0.849), rgba(8, 8, 8, 0.719)), url("img/background_01.jpg");;
+    background-size: cover;
+}
+.contach1 h1{
+    color: #0287F8;;
+    padding:4% ;
+    margin-left: 32%;
+   
+}
+.sendmail{
+    padding: 7%;
+    margin-right: 8%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+}
+.sendmail input{
+    border: none 
+}
+#sbmit{
+    background-color: #FBF5E9;
+    color: #0287F8;;
+    padding:10px;
+    padding-left: 32px;
+    padding-right: 32px; 
+    text-decoration: none;
+}
+/* ------------------------------------------------------------ */
+/* ---------------------------media query--------------------- */
+/* -----------------------------------------------------------*/
+
+@media only screen and (max-width: 800px) {
+    .paddcard{
+        width: 100%;
+    }
+    .progre{
+        width: 100%;
+    }
+    #mynam{
+        font-size: 200%;
+        padding: 10%;
+        color:#FFFFFF;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .informat h3{
+        width: 100%;
+        font-family: arial;
+        padding-bottom: 40px;
+        float: left;
+        text-align: initial;
+        font-size: 19px;
+        margin-left: 0px;
+    
+    }
+    .contach1 h1{
+        color: #0287F8;;
+        padding:4% ;
+        margin-left: 20%;   
+    }
+    .sendmail{
+        padding: 13%;
+        margin-right: 0%;
+        margin-left: 10%;
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+    }
+    #devloper{
+        font-size: 12px;
+        margin-left: 16px;
+        margin-top: -23px;
+    }
+    nav{
+         background-image:linear-gradient(to right bottom, rgba(5, 5, 5, 0.849), rgba(8, 8, 8, 0.719)), url("img/background_01.jpg");;
+        background-size: cover;
+        z-index: 7;
+        width: 100%;
+        position: fixed;
+        padding: 1%;
+    }
+    nav a{
+        float:left;
+        font-size: 12px;
+         margin-left: 1%;
+         margin-right: 1%;
+         text-decoration: none;
+         color: #0287F8;
+     }
+     #avatar{
+        width: 30%;
+        height: 90%;
+        margin-top: 12px;
+        background-color: #fff;
+        padding: 4px;
+    }
+    .jai{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1%;
+    }
+    .jai h3{
+    width: 100%;
+    font-size: 22px;
+    font-family: Serif;
+    }
+    .jai img{
+        display: none;
+        width: 100%;
+        padding-bottom: 2%;
+        }
+
+  }
+  
