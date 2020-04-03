@@ -1,2 +1,2 @@
 # Exemple portfolio version statique:
-lien : https://abdeljabarelhajji.github.io/portfolio
+lien : https://abdeljabarelhajji.github.io/portfolio-from-scratch/
